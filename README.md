@@ -25,7 +25,9 @@ package.json
 Dependencies
 
 ```bash
-npm install express
+npm install express,
+npm install mongoose
+npm install typescript
 ```
 
 Types -- these should be in dev dependencies
