@@ -14,7 +14,7 @@ const UserSchema = new Schema({
     },
 });
 
-export const User = model('User', UserSchema); //Creates a model named User based on the UserSchema
+export const UserModel = model('User', UserSchema); //Creates a model named User based on the UserSchema
 
 const ContentSchema = new Schema({
     title: {
@@ -26,4 +26,4 @@ const ContentSchema = new Schema({
     userId: { type: mongoose.Types.ObjectId, ref: 'User', required: true },
 });
 
-export const Content = model('Content', ContentSchema);
+export const ContentModel = model('Content', ContentSchema);
